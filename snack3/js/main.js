@@ -2,7 +2,7 @@ let somma = 0
 for(let i = 0; i<10; i++)
 {
     const ask = prompt("inserisci un numero")
-    if(ask%2 === 0){
+    if(i%2 === 0){
         console.log("pari" + ask)
     }
     else{
